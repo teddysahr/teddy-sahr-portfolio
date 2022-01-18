@@ -1,0 +1,207 @@
+header {
+  padding: 25px;
+  display: flex;
+  flex-basis: initial;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+  padding: 10px;
+
+  color: white;
+  font-size: 400%;
+}
+
+header li {
+  margin: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+header a {
+  padding: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  background-color: white;
+  color: orange;
+  border-radius: 5px;
+}
+
+.about-me-section {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  gap: 15px;
+  padding-right: 10px;
+}
+
+#about-me-title {
+  min-width: 175px;
+  font-size: 200%;
+  padding-top: 10px;
+  padding-right: 5px;
+  color: orange;
+  border-style: solid;
+  border-width: 3px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  text-align: right;
+}
+
+#about-me-paragraph {
+  max-width: 700px;
+  color: grey;
+}
+
+#profile-pic-section {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-pic {
+  flex: 1 1 1;
+  height: 175px;
+  width: 175px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+  border-radius: 15px;
+}
+
+.work-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+#work-title {
+  min-width: 164px;
+  font-size: 200%;
+  padding-top: 10px;
+  color: orange;
+  border-style: solid;
+  border-width: 3px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+.images-section {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 350px;
+  height: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+  border-radius: 15px 15px 0 0;
+}
+
+.image:hover {
+  opacity: 90%;
+}
+
+div p {
+  background-color: orange;
+  color: white;
+  border-radius: 0 0 15px 15px;
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: orange;
+  margin-top: 100px;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 200%;
+  border-style: solid;
+  border-width: 3px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#contact-links {
+  font-size: 150%;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact-links a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+#contact-links a:hover {
+  background-color: white;
+  color: orange;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: initial;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    color: white;
+  }
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+  }
+  #about-me-title {
+    min-width: 175px;
+    font-size: 200%;
+    padding-top: 10px;
+    padding-right: 5px;
+    color: orange;
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: left;
+  }
+}
