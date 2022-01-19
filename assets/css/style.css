@@ -1,10 +1,14 @@
+* {
+  font-family: "Helvetica", Sans-Serif;
+}
+
 header {
   padding: 25px;
   display: flex;
   flex-basis: initial;
   align-items: center;
   justify-content: space-between;
-  background-color: orange;
+  background-color: rgb(245, 101, 0);
   color: white;
 }
 
@@ -30,7 +34,7 @@ header a {
 
 header a:hover {
   background-color: white;
-  color: orange;
+  color: rgb(245, 101, 0);
   border-radius: 5px;
 }
 
@@ -47,7 +51,7 @@ header a:hover {
   font-size: 200%;
   padding-top: 10px;
   padding-right: 5px;
-  color: orange;
+  color: rgb(245, 101, 0);
   border-style: solid;
   border-width: 3px;
   border-top: 0px;
@@ -68,12 +72,11 @@ header a:hover {
 }
 
 #profile-pic {
-  flex: 1 1 1;
-  height: 175px;
-  width: 175px;
+  /* flex: 1 1 1; */
+  height: 300px;
   border-style: solid;
   border-width: 2px;
-  border-color: orange;
+  border-color: rgb(245, 101, 0);
   border-radius: 15px;
 }
 
@@ -84,10 +87,10 @@ header a:hover {
 }
 
 #work-title {
-  min-width: 164px;
+  width: fit-content;
   font-size: 200%;
   padding-top: 10px;
-  color: orange;
+  color: rgb(245, 101, 0);
   border-style: solid;
   border-width: 3px;
   border-top: 0px;
@@ -110,7 +113,7 @@ header a:hover {
   height: auto;
   border-style: solid;
   border-width: 3px;
-  border-color: orange;
+  border-color: rgb(245, 101, 0);
   border-radius: 15px 15px 0 0;
 }
 
@@ -119,7 +122,7 @@ header a:hover {
 }
 
 div p {
-  background-color: orange;
+  background-color: rgb(245, 101, 0);
   color: white;
   border-radius: 0 0 15px 15px;
   padding: 5px;
@@ -127,13 +130,16 @@ div p {
 
 footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   color: white;
-  background-color: orange;
+  background-color: rgb(245, 101, 0);
   margin-top: 100px;
 }
 
 footer h2 {
+  width: fit-content;
   text-align: center;
   font-size: 200%;
   border-style: solid;
@@ -147,12 +153,11 @@ footer h2 {
 }
 
 #contact-links {
-  font-size: 150%;
-  background-color: orange;
+  font-size: 400%;
+  background-color: rgb(245, 101, 0);
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 60px;
+  gap: 44px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -168,7 +173,7 @@ footer h2 {
 
 #contact-links a:hover {
   background-color: white;
-  color: orange;
+  color: rgb(245, 101, 0);
   border-radius: 5px;
 }
 
@@ -180,7 +185,7 @@ footer h2 {
     flex-basis: initial;
     align-items: center;
     justify-content: space-between;
-    background-color: orange;
+    background-color: rgb(245, 101, 0);
     color: white;
   }
   .about-me-section {
@@ -196,12 +201,24 @@ footer h2 {
     font-size: 200%;
     padding-top: 10px;
     padding-right: 5px;
-    color: orange;
+    color: rgb(245, 101, 0);
     border-style: solid;
     border-width: 3px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     text-align: left;
+  }
+
+  #contact-links {
+    font-size: 400%;
+    background-color: rgb(245, 101, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
